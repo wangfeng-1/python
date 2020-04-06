@@ -158,7 +158,7 @@ def screencreate(url, auth, screen_name, graphids, columns):
 def main():
     url = 'http://172.17.0.4/api_jsonrpc.php'
     username = 'admin'
-    password = 'rpjPxN7hM'
+    password = 'password'
     auth = authenticate(url, username, password)
     host_list = gethosts(groupname, url, auth)
     graph_ids = getgraphs(host_list, graphname, url, auth, columns)
