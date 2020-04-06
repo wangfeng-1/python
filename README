@@ -1,0 +1,3 @@
+create_http.py   批量添加zabbix web url 监控
+
+create_screen.py  批量添加zabbix 聚合图形监控
